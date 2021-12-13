@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform-plugin-docs/internal/provider"
+	"github.com/datadrivers/terraform-plugin-docs/internal/provider"
 )
 
 type validateCmd struct {

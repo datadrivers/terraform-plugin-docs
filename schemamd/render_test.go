@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/datadrivers/terraform-plugin-docs/schemamd"
 	"github.com/google/go-cmp/cmp"
 	tfjson "github.com/hashicorp/terraform-json"
-	"github.com/hashicorp/terraform-plugin-docs/schemamd"
 )
 
 func TestRender(t *testing.T) {

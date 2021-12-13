@@ -41,6 +41,7 @@ func newTemplate(name, text string) (*template.Template, error) {
 		},
 		"trimspace": strings.TrimSpace,
 		"split":     strings.Split,
+		"title":     strings.Title,
 	}))
 
 	var err error
